@@ -1,0 +1,66 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dingabadonga Military</title>
+<div class="navbar">
+<div class="title">DINGABADONGA MILITARY</div>
+<div class="contact" onclick="changeHash('#contact')">CONTACT US</div>
+<i class="material-icons" onclick="openMenu()">menu</i>
+</div>
+<div class="hero" id="hero">
+<div class="text">JOIN TODAY AND BE PART OF THE BEST</div>
+<div class="details" onclick="window.open('https://discord.gg/fUNct74kmX')">MORE DETAILS</div>
+<div class="scroll material-icons" onclick="changeHash('#news')">arrow_drop_down</div>
+</div>
+<div id="news">
+<div class="container">
+<div id="article">
+<div id="title">NEW WEBSITE</div>
+<div id="date">9/2/23</div>
+<div id="text">The Dingabadonga Military launches their new website. This new website has a better design and includes all of the same features from the original website. Site security and user accessibility has also been improved.</div>
+</div>
+</div>
+<div class="left material-icons" onclick="left()">arrow_left</div>
+<div class="right material-icons" onclick="right()">arrow_right</div>
+</div>
+<div id="join">
+<div class="title">HOW TO JOIN</div>
+<div class="enlisted join">
+ENLISTED
+<div class="material-icons">chevron_right</div>
+</div>
+<div class="officer join">
+OFFICER
+<div class="material-icons">chevron_right</div>
+</div>
+<div class="application join" onclick="window.open('https://docs.google.com/forms/d/1CeJ6o2j940xIE2YgQgHahKQ-f6_HYozcZHu7xnCNaVY/viewform?pli=1&pli=1&edit_requested=true')">
+APPLICATION
+<div class="material-icons">chevron_right</div>
+</div>
+</div>
+<div id="contact">
+<div class="title">CONTACT US</div>
+<div class="subtitle">Have a question or just want to learn more? We're here to help.</div>
+<div class="discord" onclick="window.open('https://discord.gg/fUNct74kmX')">
+<div class="logo material-icons">discord</div>
+<div class="text">JOIN OUR DISCORD</div>
+</div>
+</div>
+<div class="footer">
+<img draggable="false" class="logo" src="https://github.com/M19604/dmil/blob/main/DingabadongaMilitaryIcon.png?raw=tru"></img>
+<div class="motto">PEACE THROUGH STRENGTH</div>
+<div class="mission"><br><br>
+<div class="title">MISSION</div>
+<div class="text">To recruit, train, equip, and organize to deliver combat ready forces trained for all terrain to win wars while maintaining history and traditions.</div>
+</div>
+</div>
+<div class="menu" id="menu">
+<div class="title">DINGABADONGA MILITARY</div>
+<div class="button" onclick="changeHash('#hero')">HOME</div>
+<div class="button" onclick="changeHash('#news')">NEWS</div>
+<div class="button" onclick="changeHash('#join')">JOIN US</div>
+<div class="button" onclick="changeHash('#contact')">CONTACT US</div>
+<div class="close material-icons">close</div>
+</div>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+<link rel="icon" type="image/x-icon" href="DingabadongaMilitaryIcon.png">
